@@ -15,7 +15,7 @@
 <meta property="og:description" content="搭建该博客的初衷是为了整理并记录在学习前端开发过程中的知识点，便于日后查阅和温习，最终选择了🔗Hexo。  Hexo是一个快速，简洁且高效的博客框架，渲染速度快，支持Markdown格式, 拥有强大的插件系统，可以使用户更专注于博客本身。  我在搭建该博客的过程中遇到了一些问题并最终通过查阅网上的资料解决了，下文将记录我从零开始通过Hexo + Github Pages搭建个人独立博客的全过">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://yoursite.com/gallery/txt_1.png">
-<meta property="og:updated_time" content="2019-01-09T13:32:56.171Z">
+<meta property="og:updated_time" content="2019-01-09T13:37:59.108Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo + Github Pages搭建个人独立博客(基于Mac)">
 <meta name="twitter:description" content="搭建该博客的初衷是为了整理并记录在学习前端开发过程中的知识点，便于日后查阅和温习，最终选择了🔗Hexo。  Hexo是一个快速，简洁且高效的博客框架，渲染速度快，支持Markdown格式, 拥有强大的插件系统，可以使用户更专注于博客本身。  我在搭建该博客的过程中遇到了一些问题并最终通过查阅网上的资料解决了，下文将记录我从零开始通过Hexo + Github Pages搭建个人独立博客的全过">
@@ -152,7 +152,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    10 分钟 读完 (大约 1556 个字)
+                    10 分钟 读完 (大约 1554 个字)
                 </span>
                 
             </div>
@@ -178,11 +178,11 @@
 <figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 <p>按回车，按提示输入密码即可，然后等待安装成功就可以了。</p>
 <p>然后创建blog文件夹，并初始化建立博客框架：</p>
-<figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-comment"># 在你的家目录下创建一个blog文件夹</span></span><br><span class="line">mkdir blog</span><br><span class="line"><span class="hljs-comment"># 进入目录</span></span><br><span class="line"><span class="hljs-built_in">cd</span> blog</span><br><span class="line"><span class="hljs-comment"># 初始化目录</span></span><br><span class="line">hexo init</span><br><span class="line">开启本地服务 </span><br><span class="line"><span class="hljs-comment"># hexo s</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-comment"># 在你的家目录下创建一个blog文件夹</span></span><br><span class="line">mkdir blog</span><br><span class="line"><span class="hljs-comment"># 进入目录</span></span><br><span class="line"><span class="hljs-built_in">cd</span> blog</span><br><span class="line"><span class="hljs-comment"># 初始化目录</span></span><br><span class="line">hexo init</span><br><span class="line"><span class="hljs-comment"># 开启本地服务 </span></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 <p>⚠️tips：如果出现command notfind报错的话又可能是因为权限相关问题，加上sudo执行并按提示输入密码即可。</p>
 <p>至此，我们就完成了Hexo的安装及初始化，别着急，接下来只需几部我们就可以进行本地的预览了🍗： </p>
-<figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-comment"># 先安装hexo server</span></span><br><span class="line"></span><br><span class="line">$ sudo npm install hexo-server </span><br><span class="line">1</span><br><span class="line"><span class="hljs-comment"># 然后生成静态页面并打开hexo本地服务</span></span><br><span class="line"></span><br><span class="line">$ hexo generate   (或 hexo g)</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>当终端打印出以下信息后，说明你可以本地访问博客系统了，在浏览器输入🔗localhost：4000这个网址，就可以看到博客首页了。</p>
+<figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-comment"># 先安装hexo server</span></span><br><span class="line"></span><br><span class="line">$ sudo npm install hexo-server </span><br><span class="line"></span><br><span class="line"><span class="hljs-comment"># 然后生成静态页面并打开hexo本地服务</span></span><br><span class="line"></span><br><span class="line">$ hexo generate   (或 hexo g)</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>当终端打印出以下信息后，说明你可以本地访问博客系统了，在浏览器输入localhost：4000这个网址，就可以看到博客首页了。</p>
 <figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
 <p><img src="/gallery/txt_1.png" alt="blog首页"></p>
 <p>哭了 终于出现了💃<br>到这里说明你的环境以及没有问题了，成功了搭建起了博客框架</p>
